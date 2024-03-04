@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="normalizeCss/node_modules/normalize.css/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 480px)"
+      href="style.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 701px) and (max-width: 900px)"
+      href="style.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Montticello</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <!-- <link rel="manifest" href="/site.webmanifest" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="slick-1.8.1/slick/slick-theme.css"
+    />
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+      async
+      defer
+    ></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  </head>
+  <body>
+    <header class="header-background__img header-background__color">
+      <nav class="header-navbar__style">
+        <a class="logo-style" href="#">
+          <img src="img/logo.png" alt="monticello" />
+        </a>
+        <ul class="navigation-item__style">
+          <li class="navigation__dot">
+            <img src="img/dot.png" alt="dot" /><a
+              class="nav-link"
+              href="#"
+              onclick="scrollToSection('section1')"
+              >ABOUT US</a
+            >
+          </li>
+          <li class="navigation__dot">
+            <img src="img/dot.png" alt="dot" /><a
+              class="nav-link"
+              href="#"
+              onclick="scrollToSection('section2')"
+              >PROJECTS</a
+            >
+          </li>
+          <li class="navigation__dot">
+            <img src="img/dot.png" alt="dot" /><a
+              class="nav-link"
+              href="#"
+              onclick="scrollToSection('section3')"
+              >NEWS</a
+            >
+          </li>
+          <li class="navigation__dot">
+            <img src="img/dot.png" alt="dot" /><a
+              class="nav-link"
+              href="#"
+              onclick="scrollToSection('section4')"
+              >CONTACT</a
+            >
+          </li>
+        </ul>
+        <ul class="nav-icon__style">
+          <li class="nav-icon__style-padding">
+            <a href="https://www.facebook.com/"
+              ><img src="img/facebook-icon.png" alt="facebook"
+            /></a>
+          </li>
+          <li class="nav-icon__style-padding">
+            <a href="https://twitter.com/?lang=en"
+              ><img src="img/twitter-icon.png" alt="twitter"
+            /></a>
+          </li>
+          <li class="nav-icon__style-padding nav-icon__style-padding-instagram">
+            <a href="https://www.instagram.com/"
+              ><img src="img/instagram-icon.png" alt="instagram"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="head_container">
+        <div class="main-title-and-elements__style">
+          <div>
+            <h1 class="webpage_title1">SIMPLE &amp; MODERN</h1>
+          </div>
+          <div class="header-subtitle__position">
+            <h3 class="header__subtitle">
+              WE MAKE THE WORLD BEAUTIFUL EVERY DAY
+            </h3>
+          </div>
+        </div>
+        <div class="scrolldown__style">
+          <a
+           href="#"
+            onclick="scrollToSection('section2')"
+          >
+            <img src="img/arrow.png" alt="arrow" />
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="what-we-do-padding" id="section1">
+        <img class="line" src="img/line.png" alt="line-whatWeDo" />
+        <h2 class="what-we-do__style">WHAT WE DO</h2>
+      </section>
+      <section>
+        <div class="trade-center-part__style">
+          <div class="trade-center-img__styles">
+            <div class="blue-img__style">
+              <img src="img/small-blue-rectangle.png" alt="blue-rectangle" />
+            </div>
+            <div class="trade-center-img__style">
+              <img src="img/trade-center.png" alt="trade-building" />
+            </div>
+          </div>
+          <div class="trade-center-texbox__style">
+            <h3 class="running-title__section-one">ONE WORLD</h3>
+            <h2 class="title__section-one">TRADE CENTER</h2>
+            <p class="text__section-one">
+              Increasing prosperity in our lives can be accomplished by having
+              the right frame of mind. The truth is, our thoughts are very
+              powerful.
+            </p>
+            <button class="button__style">
+              <span class="button-content__style">MORE DETAILS</span>
+            </button>
+            <div class="figure-descrpion__position">
+              <i class="material-icons">location_on</i>
+              <p class="figure-description__style">
+                New York City, United States - 1776 feet
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="commerce-center-part__style">
+          <div class="commerce-center-textbox__style">
+            <h3 class="running-title__international">INTERNATIONAL</h3>
+            <h2 class="title__commerce-centre">COMMERCE CENTRE</h2>
+            <p class="text__commerce-centre">
+              Successful businesses have many things in common, today we’ll look
+              at the big ‘R’ of recognition and how a digital advertising
+              network may help.
+            </p>
+            <button class="button__style">
+              <span class="button-content__style">MORE DETAILS</span>
+            </button>
+            <div class="figure-descrpion__position">
+              <i class="material-icons">location_on</i>
+              <p class="figure-description__style">Hong Kong - 1588 feet</p>
+            </div>
+          </div>
+          <div class="commerce-img_styles">
+            <div class="purpleblue-img__style">
+              <img
+                src="img/small-purpleblue-rectangle.png"
+                alt="purpleblue-rectangle"
+              />
+            </div>
+            <div class="commerce-center-img__style">
+              <img src="img/commerce-center.png" alt="commerce-building" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="news-position" id="section2">
+        <img
+          class="line__latest-news"
+          src="img/line.png"
+          alt="line-latestNews"
+        />
+        <h2 class="latest-news__style">LATEST NEWS</h2>
+        <div class="latest-news__boxes-style">
+          <div class="latest-news__box">
+            <img
+              src="img/lauren-mancke-latest-news-1.png"
+              alt="building-img-1"
+            />
+            <h3 class="box-title__style">
+              SEE THE UNMATCHED BEAUTY OF THE GREAT.
+            </h3>
+            <p class="box-text__style">
+              Free directories: directories are perfect for customers that are
+              searching for...
+            </p>
+            <div class="authors_style">
+              <img
+                class="author-img__style"
+                src="img/alja-brun.png"
+                alt="author1"
+              />
+              <div>
+                <p class="author-name__style">ALJA BRUN</p>
+                <p class="report-date_style">20 Jan 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="latest-news__box">
+            <img
+              src="img/matthew-hamilton-latest-news-2.png"
+              alt="building-img-2"
+            />
+            <h3 class="box-title__style">EFFECTIVE ADVERTISING POINTERS.</h3>
+            <p class="box-text__style">
+              Having a home based business is a wonderful asset to your life...
+            </p>
+            <div class="authors_style">
+              <img
+                class="author-img__style"
+                src="img/dominic-freeman.png"
+                alt="author2"
+              />
+              <div>
+                <p class="author-name__style">DOMINIC FREEMAN</p>
+                <p class="report-date_style">13 Dec 2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="latest-news__box">
+            <img src="img/joel-filipe-latest-news-3.png" alt="building-img-3" />
+            <h3 class="box-title__style">HYPNOTIZE YOURSELF INTO THE GHOST.</h3>
+            <p class="box-text__style">
+              There are many things that are important to catalog design...
+            </p>
+            <div class="authors_style">
+              <img
+                class="author-img__style"
+                src="img/alice-ward.png"
+                alt="author3"
+              />
+              <div>
+                <p class="author-name__style">ALICE WARD</p>
+                <p class="report-date_style">30 Nov 2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery__positioning" id="section3">
+        <img class="line" src="img/line.png" alt="line-gallery" />
+        <h2 class="gallery-title__style">GALLERY</h2>
+        <div class="gallery-img__positioning">
+          <img
+            class="gallery-large-img"
+            src="img/img-large-gallery.png"
+            alt="large-img-gallery"
+          />
+          <div>
+            <img
+              class="gallery-small-img-up__margin"
+              src="img/img-small-1-gallery.png"
+              alt="small-img-1"
+            />
+            <img
+              class="gallery-small-img__margin"
+              src="img/img-small-2-gallery.png"
+              alt="small-img-2"
+            />
+          </div>
+          <div>
+            <img
+              class="gallery-small-img-up__margin"
+              src="img/img-small-3-gallery.png"
+              alt="small-img-3"
+            />
+            <img
+              class="gallery-small-img__margin"
+              src="img/img-small-4-gallery.png"
+              alt="small-img-4"
+            />
+          </div>
+        </div>
+        <button class="button-gallery__style">
+          <span class="button-gallery-content__style">SEE MORE</span>
+        </button>
+      </section>
+      <section id="section4">
+        <div id="googleMap" style="width: 100%; height: 700px">
+          </div>
+        <select id="citiy">
+          <option value="newYork">New York</option>
+        </select>
+      </section>
+      <section class="contact-items__position">
+        <div class="contact-form-container_style">
+          <div>
+            <img
+              class="line line-contact"
+              src="img/line.png"
+              alt="line-get-in-touch"
+            />
+            <h2 class="get-in-touch__style">GET IN TOUCH</h2>
+          </div>
+          <div class="contact-form__details">
+            <img
+              class="form-contacts"
+              src="img/contacts.png"
+              alt="contact-possibilities"
+            />
+            <form class="input-position" action="">
+              <input
+                class="input__style input-name__style"
+                id="surename and first name"
+                type="your-name"
+                placeholder="Mollie Medina"
+                required
+              />
+              <input
+                class="input__style input-email__style"
+                id="e-mail address"
+                type="e-mail"
+                placeholder="E-mail"
+                required
+              />
+              <button class="button-contact__style">SUBMIT</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      function scrollToSection(sectionId) {
+        const targetSection = document.getElementById(sectionId);
+
+        if (targetSection) {
+          window.scrollTo({
+            top: targetSection.offsetTop,
+            behavior: "smooth",
+          });
+        }
+      }
+    </script>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="slick-1.8.1/slick/slick.min.js"
+    ></script>
+
+    <!-- <script type="text/javascript">
+      $(".main-title-and-elements__style").slick({
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        vertical: true,
+        verticalSwiping: true,
+      });
+    </script> -->
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".latest-news__boxes-style").slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 4000,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+
+    <script>
+      function initMap() {
+        const brooklyn = {
+          lat: 40.65,
+          lng: -73.94999,
+        };
+
+        const map = new google.maps.Map(document.getElementById("googleMap"), {
+          zoom: 8,
+          center: brooklyn,
+        });
+      }
+    </script>
+
+    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+      ({key: "AIzaSyDGHYxbqcocwKNdBM7wuvT3qyfk2SMxT2c", v: "weekly"});</script>
+      <script async
+    src="https://maps.googleapis.com/maps/api/js?v=weekly
+        &key=&callback=initMap">
+</script>
+  </body>
+
+  <footer class="footer-background" id="footer">
+    <div class="logo-and-copyright__footer">
+      <a href="#">
+        <img src="img/logo.png" alt="monticello" />
+      </a>
+      <p class="copyright__style">Copyrights © 2020 Montichello</p>
+    </div>
+    <div>
+      <ul class="nav-icon__style">
+        <li class="nav-icon__style-padding-footer">
+          <a href="https://www.facebook.com/"
+            ><img src="img/facebook-icon.png" alt="facebook"
+          /></a>
+        </li>
+        <li class="nav-icon__style-padding-footer">
+          <a href="https://twitter.com/?lang=en"
+            ><img src="img/twitter-icon.png" alt="twitter"
+          /></a>
+        </li>
+        <li class="nav-icon__style-padding-footer">
+          <a href="https://www.instagram.com/"
+            ><img src="img/instagram-icon.png" alt="instagram"
+          /></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</html>
